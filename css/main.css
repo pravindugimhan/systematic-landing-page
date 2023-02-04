@@ -66,3 +66,42 @@ a {
   border: 0;
   float: right;
 }
+
+header .logo {
+  margin-top: 30px;
+  margin-left: 20px;
+  float: left;
+}
+
+header .logo h1 {
+  font-size: 48px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+}
+
+header .socialmedia {
+  margin-top: 50px;
+  margin-right: 20px;
+  float: right;
+}
+
+header .socialmedia ul {
+  list-style: none;
+}
+
+header .socialmedia ul li {
+  display: inline-block;
+}
+
+header .socialmedia ul li a {
+  margin-left: 5px;
+  padding: 6px;
+  background: #444;
+  color: #fff;
+  border-radius: 20px;
+}
+
+header .socialmedia ul li a:hover {
+  background: orange;
+}
